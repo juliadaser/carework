@@ -3,7 +3,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: white;
+  background-color: #fffff0;
   padding: 1rem;
 }
 
@@ -18,7 +18,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: white;
+  background-color: #fffff0;
   padding: 1rem;
 }
 
@@ -33,7 +33,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: white;
+  background-color: #fffff0;
   padding: 1rem;
 }
 
@@ -54,7 +54,7 @@ article {
   position: sticky;
   width: 100%;
   margin: 0;
-  background-color: white;
+  background-color: #fffff0;
   background-image: url("images/CareInLife/Frame 0.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -62,7 +62,6 @@ article {
   z-index: 0;
   top: 12.5vh;
   height: 75vh;
-  /* Center everything inside */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,17 +71,30 @@ article {
   padding: 1rem;
   font-size: 8rem;
   font-weight: 900;
-  color: #fff;
+  color: #fffff0;
 }
 
 .step {
   margin: 0 auto 2rem auto;
   margin-bottom: 50rem;
   background-color: #3b3b3b;
-  color: #fff;
+  color: white;
+  border-radius: 5px;
+  line-height: 1.6;
 }
 
 .datasource {
+  font-size: 0.75rem;
+  color: gray;
+  text-decoration: underline;
+}
+
+.credits {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+.credits a {
   font-size: 0.75rem;
   color: gray;
   text-decoration: underline;
@@ -93,7 +105,7 @@ article {
   background: transparent;
   pointer-events: none;
   margin-bottom: 15rem;
-  color: white;
+  color: #fffff0;
 }
 
 .step:last-child {
@@ -106,6 +118,7 @@ article {
   font-size: 1rem;
 }
 
-.highlight1 {
+.highlight {
   color: rgba(255, 118, 118, 1);
+  font-weight: bold;
 }
